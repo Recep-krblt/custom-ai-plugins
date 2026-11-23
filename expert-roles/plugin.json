@@ -1,0 +1,13 @@
+{
+  "name": "expert-roles",
+  "displayName": "Expert Review Roles & Hardening Skills",
+  "description": "Four specialized Antigravity subagent roles (principal-architect, security-auditor, perf-simplifier, design-architect), Turkish /denetle intent dispatcher, and CC-BY-SA-4.0 Trail of Bits hardening skills.",
+  "version": "1.0.0",
+  "author": "Curated local bundle (roles + Trail of Bits CC-BY-SA-4.0 skills)",
+  "repository": "https://github.com/trailofbits/skills",
+  "suggestedPrompts": [
+    "/denetle Son değişiklikleri güvenlik, mimari ve performans açısından paralel tara",
+    "/denetle Bu kodda gereksiz karmaşıklık, N+1 sorgu veya bellek sızıntısı var mı bak",
+    "/denetle Arayüz tasarımını WCAG erişilebilirlik, hiyerarşi ve LCP açısından incele"
+  ]
+}

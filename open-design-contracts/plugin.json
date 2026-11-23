@@ -1,0 +1,8 @@
+{
+  "name": "open-design-contracts",
+  "displayName": "OpenDesign Contracts & Light Presets",
+  "description": "Lightweight DESIGN.md visual direction contract workflow and clean/minimal light-mode CSS token presets cherry-picked from nexu-io/open-design (Apache-2.0, zero daemon/MCP overhead).",
+  "version": "1.0.0",
+  "author": "nexu-io (curated local bundle)",
+  "repository": "https://github.com/nexu-io/open-design"
+}
