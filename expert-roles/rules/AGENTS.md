@@ -7,4 +7,5 @@ Route plain Turkish review requests directly to `expert-roles` subagents via `in
 - **Hız / Performans / N+1 / Bellek / Kod Sadeleştirme** -> `perf-simplifier`
 - **Arayüz / Tasarım / WCAG / `DESIGN.md` / Görsel Denetim** -> `design-architect`
 - **"Uzman kontrolü" / "Ekip denetlesin" / "Hepsi baksın"** -> Launch relevant roles in parallel (`principal-architect` + `security-auditor` + `perf-simplifier`, adding `design-architect` when UI files are involved).
+- **"Dal kapanış / PR öncesi / Merge öncesi kontrol"** -> Run the full test suite first (`devops-git-cicd`), then dispatch `security-auditor` and relevant roles before merging.
 - On `"hangi roller var"` or unclear scope, briefly list these 4 roles in plain Turkish (`Mimar`, `Güvenlikçi`, `Hız & Sadeleştirici`, `Tasarımcı`) or use `/denetle`.

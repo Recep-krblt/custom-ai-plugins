@@ -13,6 +13,7 @@ Route the user's request to the matching `expert-roles` subagent(s) via `invoke_
 | Security, auth, diff risk (`güvenlik`, `açık`, `siber`, `diff`) | `security-auditor` | Auth/IDOR, secrets, C/C++ memory safety, sharp edges, git diffs |
 | Speed, N+1, cleanup, leaks (`hız`, `performans`, `sadeleştir`, `temizle`) | `perf-simplifier` | Post-working simplification, SQL indexes, blocking locks, leaks, ML leakage |
 | UI/UX, `DESIGN.md`, a11y, LCP (`tasarım`, `arayüz`, `UI`, `renk`) | `design-architect` | New views, visual direction contracts, WCAG/contrast/LCP audits |
+| Branch merge / PR readiness (`dal kapanış`, `PR öncesi`, `merge öncesi`) | `devops-git-cicd` gate + relevant roles | Verify full test suite passes first (`git-workflows-and-recovery.md`), then dispatch diff/security/architecture roles |
 
 ## Execution Rules
 1. **Explicit scope in prompt:** Dispatch only the matching role(s) in parallel via `invoke_subagent` (give each role the target paths, diff range, or question).
