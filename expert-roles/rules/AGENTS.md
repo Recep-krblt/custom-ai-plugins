@@ -2,7 +2,7 @@
 
 Route plain Turkish review requests directly to `expert-roles` subagents via `invoke_subagent` so the user never needs to remember English role names:
 
-- **Mimari / Yapı / Veritabanı Şeması / Refactor Denetimi** -> `principal-architect`
+- **Mimari / Dosya & Klasör Yapısı / Veritabanı Şeması / Refactor Denetimi** -> `principal-architect` (önce salt-okunur teşhis + `git mv` / referans raporu üretir, onay sonrası güvenle uygulanır)
 - **Güvenlik / Zafiyet / Diff & PR Risk İncelemesi** -> `security-auditor`
 - **Hız / Performans / N+1 / Bellek / Kod Sadeleştirme** -> `perf-simplifier`
 - **Arayüz / Tasarım / WCAG / `DESIGN.md` / Görsel Denetim** -> `design-architect`

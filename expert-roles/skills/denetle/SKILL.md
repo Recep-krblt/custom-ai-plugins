@@ -1,6 +1,6 @@
 ---
 name: denetle
-description: Route architecture, security, performance/simplification, or UI design audits ("denetle", "uzman", "mimari", "güvenlik", "hız", "tasarım", "hepsi") to expert-roles subagents without memorizing role names.
+description: Route architecture, directory layout, security, performance/simplification, or UI design audits ("denetle", "uzman", "mimari", "dosya yapısı", "klasör", "güvenlik", "hız", "tasarım", "hepsi") to expert-roles subagents without memorizing role names.
 ---
 
 # Expert Roles Dispatcher (`/denetle`)
@@ -9,7 +9,7 @@ Route the user's request to the matching `expert-roles` subagent(s) via `invoke_
 
 | User Intent / Keywords | Subagent (`TypeName`) | When to Run |
 | :--- | :--- | :--- |
-| Architecture, modules, DB schema (`mimari`, `şema`, `yapı`, `refactor`) | `principal-architect` | Multi-file design, seams, PostgreSQL, Go/Java/C++/Python structure |
+| Architecture, directory layout, modules, DB schema (`mimari`, `dosya yapısı`, `klasör`, `şema`, `refactor`) | `principal-architect` | Multi-file design, folder hygiene & safe `git mv` plans, PostgreSQL, Go/Java/C++/Python structure |
 | Security, auth, diff risk (`güvenlik`, `açık`, `siber`, `diff`) | `security-auditor` | Auth/IDOR, secrets, C/C++ memory safety, sharp edges, git diffs |
 | Speed, N+1, cleanup, leaks (`hız`, `performans`, `sadeleştir`, `temizle`) | `perf-simplifier` | Post-working simplification, SQL indexes, blocking locks, leaks, ML leakage |
 | UI/UX, `DESIGN.md`, a11y, LCP (`tasarım`, `arayüz`, `UI`, `renk`) | `design-architect` | New views, visual direction contracts, WCAG/contrast/LCP audits |
